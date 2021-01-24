@@ -1,0 +1,96 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns":[
+        "hi",
+        "hey",
+        "How are you?",
+        "is anyone there?",
+        "hello",
+        "good day"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hello, Thanks for visiting",
+        "Hi there, what can i do for you",
+        "Hello there, how can i help?"
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["thanks", "thank you", "thanks helpful", "thanks a lot"],
+      "responses": ["Happy to help!", "any time", "my pleasure"]
+    },
+    {
+      "tag": "goodbye",
+      "patterns":["bye", "See you later", "Goodbye"],
+      "responses": [
+        "see you again",
+        "Have a nice day. Bye Bye!",
+        "Bye! Come back again soon"
+      ]
+    },
+    {
+      "tag": "items",
+      "patterns": [
+        "which item do you have?",
+        "what kind of items are there?",
+        "What do you sell?"
+      ],
+      "responses": [
+        "We sell coffee and Tea",
+        "We have Coffee and Tea"
+      ]
+    },
+    {
+      "tag": "payments",
+      "patterns": [
+        "Do you have credit cards?",
+        "Do you have Mastercard?",
+        "Do you have Paypal?",
+        "can i pay cash"
+      ],
+      "responses": [
+        "We accept VISA, Mastercard and Paypal",
+        "we accept most of major Credit-card, Debit-cards and Paypal"
+      ]
+    },
+    {
+      "tag":"delivery",
+      "patterns": [
+        "How long the delivery will take?",
+        "How long does shipping take?",
+        "when do i get my delivery?"
+      ],
+      "responses": [
+        "Delivery will take 2-4 days",
+        "Shipping takes 2-4 days"
+      ]
+    },
+    {
+      "tag": "funny",
+      "patterns": [
+        "Tell me a joke!",
+        "Tell me something funny",
+        "Do you know any jokes"
+      ],
+      "responses": [
+        "Fuck OFF!",
+        "You are a buffelo"
+      ]
+    },
+    {
+      "tag": "address",
+      "patterns": [
+        "What is the location?",
+        "where should i came to visit?",
+        "what is the address?"
+      ],
+      "responses": [
+        "here i send you the location",
+        "you can visit store by using website. It's easy"
+      ]
+    }
+  ]
+}
